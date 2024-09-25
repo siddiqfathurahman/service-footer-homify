@@ -1,4 +1,5 @@
 import logo from '../assets/homify-logo.png';
+
 const Footer = () => {
     return (
       <footer className="bg-white py-10 font-poppins mt-20">
@@ -13,65 +14,94 @@ const Footer = () => {
               </p>
           </div>
   
-      
           <div className="grid grid-cols-2 gap-8 order-2 md:order-2">
               
               <div>
               <h4 className="font-semibold mb-2">Smart Devices</h4>
               <ul className="text-sm text-gray-600 space-y-2">
-                  <li>Smart Lighting</li>
-                  <li>Smart Thermostats</li>
-                  <li>Security Cameras</li>
-                  <li>Smart Plugs</li>
-                  <li>Voice Assistants</li>
+                  <li className="hover:text-black transition duration-300">
+                      <a href="#" className="hover:text-black">Smart Lighting</a>
+                  </li>
+                  <li className="hover:text-black transition duration-300">
+                      <a href="#" className="hover:text-black">Smart Thermostats</a>
+                  </li>
+                  <li className="hover:text-black transition duration-300">
+                      <a href="#" className="hover:text-black">Security Cameras</a>
+                  </li>
+                  <li className="hover:text-black transition duration-300">
+                      <a href="#" className="hover:text-black">Smart Plugs</a>
+                  </li>
+                  <li className="hover:text-black transition duration-300">
+                      <a href="#" className="hover:text-black">Voice Assistants</a>
+                  </li>
               </ul>
               </div>
   
-              
               <div>
               <h4 className="font-semibold mb-2">Automation</h4>
               <ul className="text-sm text-gray-600 space-y-2">
-                  <li>Energy Saving Automation</li>
-                  <li>Custom Home Setup</li>
-                  <li>Smart Routines</li>
-                  <li>Home Security Integration</li>
-                  <li>Device Synchronization</li>
+                  <li className="hover:text-black transition duration-300">
+                      <a href="#" className="hover:text-black">Energy Saving Automation</a>
+                  </li>
+                  <li className="hover:text-black transition duration-300">
+                      <a href="#" className="hover:text-black">Custom Home Setup</a>
+                  </li>
+                  <li className="hover:text-black transition duration-300">
+                      <a href="#" className="hover:text-black">Smart Routines</a>
+                  </li>
+                  <li className="hover:text-black transition duration-300">
+                      <a href="#" className="hover:text-black">Home Security Integration</a>
+                  </li>
+                  <li className="hover:text-black transition duration-300">
+                      <a href="#" className="hover:text-black">Device Synchronization</a>
+                  </li>
               </ul>
               </div>
           </div>
   
-          
           <div className="grid grid-cols-2 gap-8 order-3 md:order-3">
               
               <div>
               <h4 className="font-semibold mb-2">Support</h4>
               <ul className="text-sm text-gray-600 space-y-2">
-                  <li>24/7 Technical Support</li>
-                  <li>Installation Assistance</li>
-                  <li>Troubleshooting</li>
-                  <li>Customer Reviews</li>
+                  <li className="hover:text-black transition duration-300">
+                      <a href="#" className="hover:text-black">24/7 Technical Support</a>
+                  </li>
+                  <li className="hover:text-black transition duration-300">
+                      <a href="#" className="hover:text-black">Installation Assistance</a>
+                  </li>
+                  <li className="hover:text-black transition duration-300">
+                      <a href="#" className="hover:text-black">Troubleshooting</a>
+                  </li>
+                  <li className="hover:text-black transition duration-300">
+                      <a href="#" className="hover:text-black">Customer Reviews</a>
+                  </li>
               </ul>
               </div>
   
-              
               <div>
               <h4 className="font-semibold mb-2">Help Center</h4>
               <ul className="text-sm text-gray-600 space-y-2">
-                  <li>Blog</li>
-                  <li>FAQs</li>
-                  <li>Contact Us</li>
+                  <li className="hover:text-black transition duration-300">
+                      <a href="#" className="hover:text-black">Blog</a>
+                  </li>
+                  <li className="hover:text-black transition duration-300">
+                      <a href="#" className="hover:text-black">FAQs</a>
+                  </li>
+                  <li className="hover:text-black transition duration-300">
+                      <a href="#" className="hover:text-black">Contact Us</a>
+                  </li>
               </ul>
               </div>
           </div>
           </div>
   
-          
           <div className="items-center justify-center text-center pt-10 text-slate-500">
               <h1>@2024 Homify_fathurahman x raul. All rights reserved.</h1>
           </div>
       </div>
       </footer>
-      );
-  };
-  
-  export default Footer;  
+    );
+};
+
+export default Footer;
