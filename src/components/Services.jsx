@@ -144,7 +144,7 @@ const Services = () => {
                         <div className="flex items-center justify-between p-4 border-b rounded-t dark:border-gray-600">
                             
                             <div className='justify-center text-center'>
-                                <h1 className="text-6xl font-bold text-gray-900 dark:text-white">Thank You!!</h1>
+                                <h1 className="text-6xl font-extrabold text-gray-900 dark:text-white">Thank You!!</h1>
                                 <p className='text-xl pt-5'>Your request has been received. Our expert team will reach out to you shortly with personalized support.</p>
                             </div>
 
