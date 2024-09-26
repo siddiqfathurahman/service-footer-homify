@@ -105,7 +105,7 @@ const Services = () => {
                                         type="email"
                                         name="email"
                                         id="email"
-                                        className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block h-20 w-full p-2.5"
+                                        className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                                         placeholder="Jhondoe@gmail.com"
                                         required
                                     />
@@ -116,7 +116,7 @@ const Services = () => {
                                         name="issue"
                                         id="issue"
                                         placeholder="Describe your issue here..."
-                                        className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                                        className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 h-24 block w-full p-2.5"
                                         required
                                     />
                                 </div>
