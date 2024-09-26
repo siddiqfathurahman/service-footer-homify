@@ -60,12 +60,12 @@ const Services = () => {
                     onClick={toggleModal}
                 >
                     <div className="absolute inset-0 bg-black opacity-50"></div>
-                    <div className="relative p-4 w-full max-w-lg bg-white rounded-lg shadow z-50 dark:bg-gray-700" onClick={e => e.stopPropagation()}>
-                        <div className="flex items-center justify-between p-4 border-b rounded-t dark:border-gray-600">
+                    <div className="relative p-4 w-full max-w-lg bg-white rounded-lg shadow z-50" onClick={e => e.stopPropagation()}>
+                        <div className="flex items-center justify-between p-4 border-b rounded-t">
                             <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Feel free to ask us</h3>
                             <button
                                 type="button"
-                                className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+                                className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 inline-flex justify-center items-center"
                                 onClick={toggleModal}
                             >
                                 <svg
@@ -89,34 +89,34 @@ const Services = () => {
                         <div className="p-4">
                             <form className="space-y-4" onSubmit={handleSubmit}>
                                 <div>
-                                    <label htmlFor="name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your name</label>
+                                    <label htmlFor="name" className="block mb-2 text-sm font-medium text-gray-900">Your name</label>
                                     <input
                                         type="text"
                                         name="name"
                                         id="name"
                                         placeholder="John Doe"
-                                        className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                                        className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                                         required
                                     />
                                 </div>
                                 <div>
-                                    <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
+                                    <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900">Your email</label>
                                     <input
                                         type="email"
                                         name="email"
                                         id="email"
-                                        className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                                        className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                                         placeholder="name@company.com"
                                         required
                                     />
                                 </div>
                                 <div>
-                                    <label htmlFor="issue" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Describe Your Issue:</label>
+                                    <label htmlFor="issue" className="block mb-2 text-sm font-medium text-gray-900">Describe Your Issue:</label>
                                     <textarea
                                         name="issue"
                                         id="issue"
                                         placeholder="Describe your issue here..."
-                                        className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                                        className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                                         required
                                     />
                                 </div>
@@ -140,11 +140,11 @@ const Services = () => {
                 >
                     <div className="absolute inset-0 bg-black opacity-50"></div>
 
-                    <div className="relative p-4 w-full max-w-lg bg-white rounded-lg shadow dark:bg-gray-700" onClick={e => e.stopPropagation()}>
+                    <div className="relative p-4 w-full max-w-lg bg-white rounded-lg shadow" onClick={e => e.stopPropagation()}>
                         <div className="flex items-center justify-between p-4 border-b rounded-t dark:border-gray-600">
                             
                             <div className='justify-center text-center'>
-                                <h1 className="text-6xl font-extrabold text-gray-900 dark:text-white">Thank You!!</h1>
+                                <h1 className="text-6xl font-extrabold text-gray-900 ">Thank You!!</h1>
                                 <p className='text-xl pt-5'>Your request has been received. Our expert team will reach out to you shortly with personalized support.</p>
                             </div>
 
