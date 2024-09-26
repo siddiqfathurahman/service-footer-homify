@@ -145,7 +145,7 @@ const Services = () => {
                             
                             <div className='justify-center text-center'>
                                 <h1 className="md:text-6xl text-4xl font-extrabold text-gray-900 ">Thank You!!</h1>
-                                <p className='text-xl pt-5'>Your request has been received. Our expert team will reach out to you shortly with personalized support.</p>
+                                <p className='text-xl pt-2'>Your request has been received. Our expert team will reach out to you shortly with personalized support.</p>
                             </div>
 
                         </div>
