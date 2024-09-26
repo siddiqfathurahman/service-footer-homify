@@ -56,7 +56,7 @@ const Services = () => {
             {/* Modal for asking questions */}
             {isModalOpen && (
                 <div
-                    className="fixed inset-0 z-50 flex items-center justify-center overflow-hidden"
+                    className="fixed inset-0 z-50 flex items-center justify-center overflow-hidden px-2"
                     onClick={toggleModal}
                 >
                     <div className="absolute inset-0 bg-black opacity-50"></div>
