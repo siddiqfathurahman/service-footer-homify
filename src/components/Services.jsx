@@ -165,7 +165,7 @@ const Services = () => {
         <div className="flex justify-center mt-5">
             <button
                 onClick={toggleModal}
-                className="text-white bg-black focus:ring-4 md:text-3xl text-1xl rounded-2xl font-semibold text-sm px-10 py-2.5 hover:shadow-lg transition-shadow duration-300"
+                className="text-white bg-black hover:bg-purple-600 transition duration-300 ease-in-out transform hover:scale-105 focus:ring-4 focus:ring-purple-300 md:text-3xl text-1xl rounded-2xl font-semibold text-sm px-10 py-2.5"
                 >
                 Get Expert Advice
                 </button>
