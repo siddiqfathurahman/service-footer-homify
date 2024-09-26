@@ -62,7 +62,7 @@ const Services = () => {
                     <div className="absolute inset-0 bg-black opacity-50"></div>
                     <div className="relative p-4 w-full max-w-lg bg-white rounded-lg shadow z-50" onClick={e => e.stopPropagation()}>
                         <div className="flex items-center justify-between p-4 border-b rounded-t">
-                            <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Feel free to ask us</h3>
+                            <h3 className="text-xl font-semibold text-gray-900">Feel free to ask us</h3>
                             <button
                                 type="button"
                                 className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 inline-flex justify-center items-center"
