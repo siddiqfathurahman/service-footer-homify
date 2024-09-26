@@ -141,7 +141,7 @@ const Services = () => {
                     <div className="absolute inset-0 bg-black opacity-50"></div>
 
                     <div className="relative p-4 w-full max-w-lg bg-white rounded-lg shadow" onClick={e => e.stopPropagation()}>
-                        <div className="flex items-center justify-between p-4 border-b rounded-t dark:border-gray-600">
+                        <div className="flex items-center justify-between p-4 rounded-t">
                             
                             <div className='justify-center text-center'>
                                 <h1 className="text-6xl font-extrabold text-gray-900 ">Thank You!!</h1>
