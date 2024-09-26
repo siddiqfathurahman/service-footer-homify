@@ -135,7 +135,7 @@ const Services = () => {
             {/* Thank You Modal */}
             {isThankYouOpen && (
                 <div
-                    className="fixed inset-0 z-50 flex items-center justify-center overflow-hidden"
+                    className="fixed inset-0 z-50 flex items-center justify-center overflow-hidden px-2"
                     onClick={closeThankYouModal}
                 >
                     <div className="absolute inset-0 bg-black opacity-50"></div>
@@ -144,7 +144,7 @@ const Services = () => {
                         <div className="flex items-center justify-between p-4 rounded-t">
                             
                             <div className='justify-center text-center'>
-                                <h1 className="text-6xl font-extrabold text-gray-900 ">Thank You!!</h1>
+                                <h1 className="md:text-6xl text-4xl font-extrabold text-gray-900 ">Thank You!!</h1>
                                 <p className='text-xl pt-5'>Your request has been received. Our expert team will reach out to you shortly with personalized support.</p>
                             </div>
 
